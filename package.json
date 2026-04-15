@@ -1,0 +1,25 @@
+{
+  "name": "bbc-sport-comments",
+  "version": "1.0.0",
+  "description": "BBC Sport comment-viewing automation project using Playwright, JavaScript, Cucumber, and Page Object Model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:one": "cucumber-js --world-parameters \"{\\\"headless\\\":false}\"",
+    "test:headed": "cucumber-js --world-parameters \"{\\\"headless\\\":false}\"",
+    "test:manual": "cucumber-js --tags @manual"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "gherkin",
+    "bbc-sport",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.52.0"
+  }
+}
