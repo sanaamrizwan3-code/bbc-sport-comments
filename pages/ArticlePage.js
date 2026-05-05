@@ -1,6 +1,7 @@
 const BasePage = require("./BasePage");
 
 class ArticlePage extends BasePage {
+  
   constructor(page) {
     super(page);
 

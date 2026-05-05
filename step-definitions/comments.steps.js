@@ -69,7 +69,7 @@ Then("the comments section should not be visible", async function () {
 });
 
 Given("the user signs in with a valid BBC account", async function () {
-  return "pending";
+  return "Not Implemented";
 });
 
 Then("existing comments should be visible to the signed-in user", async function () {
